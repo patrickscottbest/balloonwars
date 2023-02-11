@@ -40,7 +40,7 @@ CoD = 0.4 # static for now.  0.4 sphere at any turbulent. 0.014 naca airfoils, s
 
 # User defined.
 alt_m_low = 0
-alt_m_high = 60000
+alt_m_high = 10000  # metres
 stop_height = alt_m_high
 
 # Initialise values
@@ -147,7 +147,7 @@ dataframe = pd.DataFrame(datum, columns = datum_headers)
 print(dataframe.head())
 print(dataframe.tail())
 
-dataframe.plot(subplots=True, y=datum_headers, secondary_y="Drag(N)", kind="line", figsize=(15,15), title=("Balloon Ascent to ",stop_height,"m."), xlabel="Time(s)", layout=(4,5))
+dataframe.plot(subplots=True, y=datum_headers, secondary_y="Drag(N)", kind="line", figsize=(15,15), title=("Balloon Ascent to " + str(stop_height) +"m."), xlabel="Time(s)", layout=(4,5))
 
 #dataframe.plot(y=["Buoyancy(N)","Uplift(N)","Drag(N)"], secondary_y="Drag(N)", kind="line", figsize=(5,5), title="Force Newtons", xlabel="Time(s)")
 dataframe.plot(subplots=True, y=["Buoyancy(N)","Uplift(N)","Drag(N)"], kind="line", figsize=(5,5), title="Force Newtons", xlabel="Time(s)")

@@ -27,6 +27,7 @@ Lots.
 - Any kind of lat/long prediction or descent profile (post-burst)
 - Reasonable documentation
 
+
 # Resources and Research
 
 Most published results show the coefficient of drag for a sphere at Re=10,000 to
@@ -41,7 +42,16 @@ that will be a value too high for ground conditions and far more appropriate for
 https://www.basicairdata.eu/knowledge-center/design/introduction-to-weather-balloons/
 
 REASONABLE SANITY NUMBERS    
--pressure_sealevel_kp = 1013.25
--pressure_ceiling_kp = 10 
--sound_m_s_high = 340
--sound_m_s_low = 200
+- pressure_sealevel_kp = 1013.25
+- pressure_ceiling_kp = 10 
+- sound_m_s_high = 340
+- sound_m_s_low = 200
+
+
+# Screenshots
+
+![BalloonWars Various](screenshots/BalloonWars-Figure-1-Various.PNG?raw=true "Figure-1-Various")
+
+![BalloonWars Newtons](screenshots/BalloonWars-Figure-2-Newtons.PNG?raw=true "Figure-2-Newtons")
+
+![BalloonWars Reynolds](screenshots/BalloonWars-Figure-3-Reynolds-Domains.PNG?raw=true "Figure-3-Reynolds")
