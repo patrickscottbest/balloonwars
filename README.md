@@ -2,7 +2,7 @@
 
 A python program to calculate the scientific parameters of launching of a totally-not-for-spying weather balloon.
 
-![BalloonWars Logo](logo/png/logo-color.png?raw=true "BalloonWars Logo")
+![BalloonWars Logo](logo/balloonwars-color-cropped.png?raw=true "BalloonWars Logo")
 
 # Introduction
 
