@@ -10,6 +10,7 @@ I decided to write a function to calculate a second by second launch of a weathe
 
 The purpose was to explore what differences different parameters can make, and to understand the regimes of the atmosphere in which these balloons operate.  Neat.
 
+
 # How to Run
 
 Download the source code and run manually from the command line, any OS: 
@@ -26,6 +27,7 @@ Lots.
 - Burst heigh calculations (material science i guess)
 - Any kind of lat/long prediction or descent profile (post-burst)
 - Reasonable documentation
+
 
 
 # Resources and Research

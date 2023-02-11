@@ -28,7 +28,7 @@ pi = 3.1415926535897931
 
 diameter = (0.471921 * 2) #  metres, 0.471921 radius , 0.421921 cubic meter 14.9 ft3
 volume = float(4.0/3.0*pi* (diameter/2)**3)
-helium_mass = 0.166 * volume #  0.166 per m^3
+helium_mass = 0.166 * volume #  0.166 per m^3 , use 0.08 for hydrogen.
 payload = 0.50 #  kg
 balloon = 0.2 #  kg
 mass = helium_mass + balloon + payload  # kg 
