@@ -50,8 +50,11 @@ REASONABLE SANITY NUMBERS
 
 # Screenshots
 
+
 ![BalloonWars Various](screenshots/BalloonWars-Figure-1-Various.PNG?raw=true "Figure-1-Various")
 
 ![BalloonWars Newtons](screenshots/BalloonWars-Figure-2-Newtons.PNG?raw=true "Figure-2-Newtons")
 
 ![BalloonWars Reynolds](screenshots/BalloonWars-Figure-3-Reynolds-Domains.PNG?raw=true "Figure-3-Reynolds")
+
+![BalloonWars CLI Output](screenshots/BalloonWars-Figure-4-CLI-output.PNG?raw=true "Figure-4-CLI-output")
