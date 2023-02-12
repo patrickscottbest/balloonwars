@@ -17,6 +17,8 @@ Download the source code and run manually from the command line, any OS:
 ```
 python3 ./balloonwars.py --help
 ```
+Edit parameters inside the script.
+
 
 # What's missing? 
 
