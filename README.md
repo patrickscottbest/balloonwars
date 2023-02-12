@@ -29,6 +29,22 @@ Lots.
 - Reasonable documentation
 
 
+# What works? 
+
+Also Lots.
+
+- cli output 
+- graph output (multiple windows)
+- cross-calculated data at every interval (1 second)
+- tabulated textual output (recommended screen wide with small font)
+
+
+# Libraries used
+
+matplotlib.pyplot for graphs
+pandas for tabulated data, feeds into matplotlib
+ambiance for standard altitude readings
+
 
 # Resources and Research
 
